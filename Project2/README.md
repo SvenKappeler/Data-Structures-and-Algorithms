@@ -20,7 +20,11 @@ The Loader deals with the creation and manipulation of blocks and directories, h
 4. **Rehashing the Blocks into a greater directory depth:**
    - If the localDepth of the block that was attempted to split would be larger than the directory depth, it increases the directoryDepth and reinserts all the businesses into the new depth folder.
 
+![Directory Image](https://github.com/SvenKappeler/Data-Structures-and-Algorithms/blob/main/Project2/Resources/HashtableInterior.png)
+
 **Blocks:** Contain the actual businesses and are represented as a .txt file inside the correct prefix bit folder. They store an amount of businesses inside as a serializable array, which is equal to (localDepth^2).
+
+![Block Image](https://github.com/SvenKappeler/Data-Structures-and-Algorithms/blob/main/Project2/Resources/PrefixInterior.png)
 
 **Cluster:** Creates 5 clusters based on 5 random businesses:
    - Makes a new hashtable for each cluster.
@@ -32,3 +36,5 @@ The Loader deals with the creation and manipulation of blocks and directories, h
 ## GUI 
 
 This is an extension of Project 1 and now includes the cluster to which the business belongs.  
+
+![GUI Image](https://github.com/SvenKappeler/Data-Structures-and-Algorithms/blob/main/Project2/Resources/GUI.png)
